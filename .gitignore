@@ -61,5 +61,5 @@ typings/
 .next
 
 # editors
-.idea
-.vscode
+.idea/
+.vscode/
