@@ -1,2 +1,2 @@
-src/registerServiceWorker.js
+src/registerServiceWorker.ts
 src/**/__tests__/**

@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import './App.scss';
 
 const App: React.FC = (): JSX.Element => {
   const [state, setState] = useState('');
-  const hola = () => console.log(hola);
+  const hola = useCallback((): void => console.log(hola), []);
   useEffect(() => {
     setState('hola');
     hola();
-  }, [setState, state]);
+  }, [hola, setState, state]);
   return (
     <div className="App">
       <header className="App-header">
