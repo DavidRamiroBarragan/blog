@@ -1,2 +1,3 @@
-src/registerServiceWorker.ts
+src/serviceWorker.ts
 src/**/__tests__/**
+src/*.scss
