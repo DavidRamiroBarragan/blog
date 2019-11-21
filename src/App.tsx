@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 import './App.scss';
 
 const App: React.FC = (): JSX.Element => {
