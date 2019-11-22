@@ -1,4 +1,4 @@
-.App-header {
+.app-header {
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
     url("assets/img/background.jpg");
@@ -8,10 +8,10 @@
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-}
 
-.header-p {
-    color: white;
-    font-size: calc(10px + 2vmin);
+    &__texto {
+        color: white;
+        font-size: calc(10px + 2vmin);
+    }
 }
 

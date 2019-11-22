@@ -9,9 +9,9 @@ const App: React.FC = (): JSX.Element => {
     hola();
   }, [hola, setState, state]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className="header-p">En construcción</p>
+    <div className="app">
+      <header className="app-header">
+        <p className="app-header__texto">En construcción</p>
       </header>
     </div>
   );
