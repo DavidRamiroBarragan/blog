@@ -11,7 +11,7 @@ const App: React.FC = (): JSX.Element => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>En construcción</p>
+        <p className="header-p">En construcción</p>
       </header>
     </div>
   );
