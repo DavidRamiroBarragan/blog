@@ -20,11 +20,11 @@
         "eject": "react-scripts eject",
         "lint": "eslint src/** --ext .ts,.tsx",
         "lint:fix": "yarn lint --fix",
-        "stylelint": "stylelint '**/*.scss'"
+        "stylelint": "stylelint src/**/*.scss"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "yarn lint stylelint"
+            "pre-commit": "yarn lint"
         }
     },
     "eslintConfig": {
