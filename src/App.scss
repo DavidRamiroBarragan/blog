@@ -1,17 +1,15 @@
+@import "./assets/scss/abstracts/mixin";
 .app-header {
-    align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
     url("assets/img/background.jpg");
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     min-height: 100vh;
+    @include flexPosition;
 
     &__texto {
         color: white;
-        font-size: calc(10px + 2vmin);
+        font-size: calc(1rem + 2vmin);
     }
 }
 
