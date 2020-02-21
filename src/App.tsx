@@ -4,11 +4,11 @@ import './App.scss';
 const App: React.FC = (): JSX.Element => {
   return (
     <div className="app">
-      <header className="app-header">
-        <div className="app-header__section">
-          <h1 className="app-header__texto">En construcción</h1>
+      <section className="app-info">
+        <div className="app-info__section">
+          <h1 className="app-info__texto">En construcción</h1>
         </div>
-      </header>
+      </section>
     </div>
   );
 };

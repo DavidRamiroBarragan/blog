@@ -2,14 +2,16 @@
 @import "./assets/scss/abstracts/mixin";
 @import "./assets/scss/abstracts/variables";
 
-.app-header {
+.app {
     background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
     url("assets/img/background.jpg");
     background-position: center;
     background-size: cover;
     min-height: 100vh;
     @include flexPosition;
+}
 
+.app-info {
     &__section {
         background-color: white;
         padding: 10rem 5rem;

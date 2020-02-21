@@ -1,7 +1,9 @@
 $colors: (
-    primary: #006699,
+primary: #006699,
     secondary: #A6111F,
-    terciary: #08A685,
+    terciary: #08364D,
+    quaternary: #66630A,
+    fith: #E5DE0B
 );
 
 @function color($color-name) {
