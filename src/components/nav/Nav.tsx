@@ -1,7 +1,4 @@
 import React from 'react';
 
-const Nav = React.memo(function Nav() {
-  return <nav>Nav</nav>;
-});
-
-export default Nav;
+const Nav = () => <nav>Nav</nav>;
+export default React.memo(Nav);
